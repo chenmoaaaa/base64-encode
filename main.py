@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     print("ecoded:",output_encoded)
 
-    f_output = open(path.join('update','url'),'w')
+    f_output = open('url','w')
     f_output.write(output_encoded)
     f_output.close()
 
